@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+body {
+    background-color: #6d647d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 48%;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 30px 4px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
+
+.pp {
+    border-radius: 50%;
+    width: 132px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 10px 8px rgb(82, 82, 82);
+}
+
+.strong {
+    color: white;
+    font-weight: 500;
+}
+
+#text1:hover {
+    font-weight: 600;
+    transform: translateY(-4px);
+    font-weight: 200;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#text1 {
+    font-weight: 200;
+    color: white;
+    margin: auto;
+    font-size: 42px;
+    transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.73, 0.57);
+    text-align: center;
+    font-family: 'Source Sans Pro',
+        sans-serif;
+}
+
+#text2 {
+    font-weight: 10;
+    color: white;
+    font-size: 23px;
+    margin-bottom: 16px;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.divider {
+    height: 2px;
+    border: solid 2px white;
+    margin-top: 12px;
+    border-radius: 100px;
+}
+
+#text3 {
+    color: white;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+#text4 {
+    color: white;
+    font-size: 20px;
+    margin: 8px 0 26px 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 32px;
+    margin-top: 5px;
+}
+
+.button {
+    width: 100%;
+    display: inline-block;
+    /* text-align: left; */
+    font-size: 28px;
+    margin-top: 5px;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.social {
+    padding: 0 30px;
+    margin-bottom: 13px;
+    border-radius: 30px;
+    background-color: #9791a3;
+    height: 45px;
+    position: static;
+}
+
+.social:hover {
+    background-color: rgb(122, 156, 158);
+    transition: 0.5s ease-out;
+}
